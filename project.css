@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+#spotify
+{
+    color: white;
+    
+}
+.topImage
+{
+    height: 50%;
+    width: 20%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.371),rgba(0, 0, 0, 0.432)), url("celebities/felixyumnam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 20pc;
+    font-size: 0.6pc;
+}
+.content
+{
+    color: white;
+    font-family: fantasy;
+    font-weight: 700;
+    font-size: 0.8pc;
+    position: relative;
+    top: 9pc;
+    padding-left: 1pc;
+}
+.body
+{
+    color: white;
+}
+.audioDisplay
+{
+    color: white;
+    position: relative;
+    top: 2pc;
+    border: 1px solid white;
+    height: 2pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playPause1
+{
+    color: red;
+    display: inline;
+    position: relative;
+}
+.playPause:hover
+{
+    position: relative;
+    cursor: pointer;
+}
