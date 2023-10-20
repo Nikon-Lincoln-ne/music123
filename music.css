@@ -1,0 +1,21 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+.music-player
+{
+    text-align: center;
+}
+.backward
+{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.forward
+{
+    background-color: black;
+    color: white;
+    border: none;
+}
